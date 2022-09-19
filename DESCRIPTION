@@ -1,0 +1,16 @@
+Package: PWQI
+Type: Package
+Title: Calculate Portland (OR) Water Quality Index
+Version: 0.2
+Date: 2018-04-27
+Author: Jason Law
+Maintainer: Jason Law <jason.law@portlandoregon.gov>
+Description: The City of Portland, OR has developed a water quality index based
+    on the Oregon Water Quality Index. This R function calculates the values of that
+    index.
+Imports:
+    polynom,functional,ORDEQWaterQualityCriteria
+License: GPL-3
+LazyData: TRUE
+RoxygenNote: 7.1.2
+Suggests: testthat
