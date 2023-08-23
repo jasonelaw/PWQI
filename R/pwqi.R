@@ -18,7 +18,7 @@ fexp <- function(x, r){
 # Index Functions
 iTSS       <- Curry(fexp, r = -0.03)
 iPhos      <- Curry(fexp, r = -4.00)
-iPhosFanno <- Curry(fexp, 4 = -4.5)
+iPhosFanno <- Curry(fexp, r = -4.5)
 
 # Spline Interpolation
 s_tss <- splinefun(c(0,10,20,43,100), c(100,80,60,30,10), method = "hyman")
