@@ -20,6 +20,7 @@ kWatersheds <- c('Fanno Creek', 'Johnson Creek', 'Tualatin Tributaries', 'Tryon 
 #' @examples
 #' PWQI:::kDORiver
 #' @name poly-coef
+#' @import polynom
 NULL
 
 #' @rdname poly-coef
